@@ -1,0 +1,17 @@
+{
+	"name": "ar-sql-dev-uks-data",
+	"properties": {
+		"globalParameters": {
+			"environment": {
+				"type": "String",
+				"value": "nonprod"
+			}
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9ae96ee5-520c-4b8a-b403-e18208192f7f",
+		"tenantId": "f18fa376-1490-42b3-a3e2-a94447ca9e7d"
+	}
+}
